@@ -14,3 +14,7 @@ To our best of knowledge, this is the first open source-based 3D fish tracking p
 ## 3. Technical challenge
 As of now, we suppose the camera can track the 2D possion (X, Y) of each fish by using image data.
 However, it seems difficult to sense the depth (Z) information because the fish size is too small to be captured by the depth camera.
+  
+<img src="https://user-images.githubusercontent.com/13718037/69971016-9c363d00-1562-11ea-9f14-7923f210b177.png" width="600px">
+  
+Left: captured image info, Right: colored depth info
