@@ -1,11 +1,11 @@
 # 3D-fish-tracker
 ## 1. Overview
 We are trying to build up an open experiment environment for tracking 3D-positions of a fish school in an aquarium.
-Our goal is to identify each fish, track each one's 3D-position (X, Y, Z) by utilizing OpenCV with a Intel RealSense depth camera, and provide open data for researching the collective behavior. 
+Our goal is to identify each fish, track each one's 3D-position (X, Y, Z) by utilizing OpenCV with an Intel RealSense depth camera, and provide open data for researching the collective behavior. 
 To our best of knowledge, this is the first open source-based 3D fish tracking project.
 
 ## 2. Experimental setup
-- Ubuntu 16.04 with OpenCV 3.4.2 on VirtualBox 5.2.22 running on MacOSX (Majove) 
+- Ubuntu 16.04 with OpenCV 3.4.2 on VirtualBox 6.0.14 running on MacOSX (Mojave) 
 - Intel RealSense D435
 - Cube-type aquarium (25cm × 25cm × 25cm)
 - 5 Paracheirodon axelrodi
@@ -13,7 +13,7 @@ To our best of knowledge, this is the first open source-based 3D fish tracking p
 
 ## 3. Technical challenge
 As of now, we suppose the camera can track the 2D possion (X, Y) of each fish by using image data.
-However, it seems difficult to sense the depth (Z) information because the fish size is too small to be captured by the depth camera.
+However, it seems difficult to sense the depth (Z) information because the fish size is too small to be captured by the depth sensor.
   
 <img src="https://user-images.githubusercontent.com/13718037/69971016-9c363d00-1562-11ea-9f14-7923f210b177.png" width="600px">
   
